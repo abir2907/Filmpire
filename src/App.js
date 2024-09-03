@@ -15,7 +15,19 @@ const App = () => {
     searchMovies("Spiderman");
   }, []);
 
-  return <h1>App</h1>;
+  return (
+    <div className="app">
+      <h1>MovieLane</h1>
+      <div className="search">
+        <input
+          placeholder="Search for movies"
+          value="superman"
+          onChange={() => {}}
+        />
+        <img src={SearchIcon} alt="search" onClick />
+      </div>
+    </div>
+  );
 };
 
 export default App;
