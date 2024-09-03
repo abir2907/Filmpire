@@ -9,6 +9,10 @@ const App = () => {
     console.log(data.Search);
   };
 
+  useEffect(() => {
+    searchMovies("Spiderman");
+  }, []);
+
   return <h1>App</h1>;
 };
 
