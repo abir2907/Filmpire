@@ -24,7 +24,7 @@ const App = () => {
           value="superman"
           onChange={() => {}}
         />
-        <img src={SearchIcon} alt="search" onClick />
+        <img src={SearchIcon} alt="search" onClick={() => {}} />
       </div>
     </div>
   );
